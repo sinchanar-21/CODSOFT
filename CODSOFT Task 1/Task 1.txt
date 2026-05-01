@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinchana's Portfolio</title>
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    h1, h2, h3 {
+      font-weight: 600;
+    }
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #4a90e2, #9013fe);
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    nav {
+      margin-top: 20px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section h2 {
+      margin-bottom: 20px;
+      font-size: 2em;
+      color: #4a90e2;
+      position: relative;
+    }
+    section h2::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 3px;
+      background: #9013fe;
+      margin: 10px auto;
+    }
+
+    /* About */
+    .about img {
+      width: 180px;
+      border-radius: 50%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin-bottom: 20px;
+    }
+    .about p {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    /* Skills */
+    .skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+    }
+    .skills li {
+      background: #fff;
+      margin: 10px;
+      padding: 15px 25px;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .skills li:hover {
+      transform: translateY(-5px);
+      background: #f0f8ff;
+    }
+
+    /* Projects */
+    .projects ul {
+      list-style: none;
+      padding: 0;
+    }
+    .projects li {
+      background: #fff;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease;
+    }
+    .projects li:hover {
+      transform: scale(1.02);
+    }
+    .projects h3 {
+      margin-top: 0;
+      color: #9013fe;
+    }
+
+    /* Resume */
+    .resume a.button {
+      display: inline-block;
+      padding: 12px 25px;
+      background: #4a90e2;
+      color: #fff;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s ease;
+    }
+    .resume a.button:hover {
+      background: #9013fe;
+    }
+
+    /* Contact */
+    .contact p {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+    .contact a {
+      color: #4a90e2;
+      font-weight: bold;
+    }
+    .contact a:hover {
+      color: #9013fe;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Sinchana R</h1>
+    <p>Information Science & Engineering | Aspiring Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#resume">Resume</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <img src="C:\Users\sinch\Downloads\CODSOFT Task 1\your-photo.jpg.jpeg" alt="Profile Photo">
+    <p>Hello! I’m Sinchana R, a B.E student specializing in Information Science & Engineering. I enjoy blending creativity with technology to build impactful projects.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Python Programming</li>
+      <li>DSA in Java</li>
+      <li>JavaScript & Web Development</li>
+      <li>Machine Learning & Data Analysis</li>
+      <li>Java Programming</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>
+        <h3>Hand Gesture Recognition</h3>
+        <p>Built a classical ML model using LeapGestRecog dataset.</p>
+      </li>
+      <li>
+        <h3>RSA Algorithm Implementation</h3>
+        <p>Implemented cryptography algorithm in Python with example outputs.</p>
+      </li>
+      <li>
+        <h3>Interactive Portfolio Website</h3>
+        <p>Developed responsive portfolio for Codsoft internship using HTML, CSS, and JavaScript.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <h2>Resume</h2>
+    <a href="resume.pdf" class="button" download>Download My Resume</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:sinchanar.23ise@cambridge.edu.in">sinchanar.23ise@cambridge.edu.in</a></p>
+    <p>Phone: <a href="tel:+919876543210">+91-9876543210</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 Sinchana. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
