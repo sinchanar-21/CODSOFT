@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Project</title>
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>My Landing Page</h1>
+    <p>Clean • Modern • Responsive</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <h2>Welcome to My Page</h2>
+      <p>This landing page showcases how HTML and CSS can be used to create a simple, elegant design. Customize the text, colors, and layout to make it your own.</p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+    <img src="hero-image.jpg" alt="Landing Page Illustration">
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="feature">
+      <h3>Easy Layouts</h3>
+      <p>Create columns and sections effortlessly with CSS Flexbox.</p>
+    </div>
+    <div class="feature">
+      <h3>Responsive Design</h3>
+      <p>Ensure your page looks great on desktops, tablets, and mobiles.</p>
+    </div>
+    <div class="feature">
+      <h3>Creative Styling</h3>
+      <p>Experiment with colors, padding, and hover effects to impress users.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2026 My Landing Page. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
